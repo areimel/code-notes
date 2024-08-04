@@ -1,0 +1,207 @@
+{
+  "main": {
+    "id": "85efd0f90ea406d8",
+    "type": "split",
+    "children": [
+      {
+        "id": "1cc35286674eaa7c",
+        "type": "tabs",
+        "dimension": 54.79876160990712,
+        "children": [
+          {
+            "id": "d4891968b436fa11",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Current Projects.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "3e9c4d18af4fbb19",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Common JS Snippets.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c12961908d5d775d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Common CSS Snippets.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 2
+      },
+      {
+        "id": "81b95109ac62e849",
+        "type": "tabs",
+        "dimension": 45.20123839009288,
+        "children": [
+          {
+            "id": "948707d6edd75d2c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Common HTML Snippets.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "5fc62e1a8a090201",
+    "type": "split",
+    "children": [
+      {
+        "id": "be366dd40f8a36e0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d0633f894647f9f4",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "40c54d92b18c6fd9",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "46589a0b8df2f09e",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "a354f321ae76fd2e",
+    "type": "split",
+    "children": [
+      {
+        "id": "c16f78a2f2d86c3a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a8bdf803b2900b13",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Common CSS Snippets.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "209785351d4304f4",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Common CSS Snippets.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "eacdc497787278bf",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "3149b10ec3ec7839",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Common CSS Snippets.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "c12961908d5d775d",
+  "lastOpenFiles": [
+    "Common JS Snippets.md",
+    "Common HTML Snippets.md",
+    "Common CSS Snippets.md",
+    "Current Projects.md",
+    "Welcome.md",
+    "Website Content",
+    "Snippet Collections",
+    "Plugins"
+  ]
+}
