@@ -40,14 +40,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Common CSS Snippets.md",
+                "file": "Welcome.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "dfa32dbe46ac56c3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Resource Links.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       },
       {
         "id": "81b95109ac62e849",
@@ -132,7 +144,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Common CSS Snippets.md",
+                "file": "Resource Links.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -149,7 +161,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Common CSS Snippets.md",
+                "file": "Resource Links.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -172,7 +184,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Common CSS Snippets.md"
+                "file": "Resource Links.md"
               }
             }
           }
@@ -193,13 +205,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c12961908d5d775d",
+  "active": "dfa32dbe46ac56c3",
   "lastOpenFiles": [
+    "Welcome.md",
+    "Resource Links.md",
+    "Current Projects.md",
+    "Common CSS Snippets.md",
     "Common JS Snippets.md",
     "Common HTML Snippets.md",
-    "Common CSS Snippets.md",
-    "Current Projects.md",
-    "Welcome.md",
     "Website Content",
     "Snippet Collections",
     "Plugins"
