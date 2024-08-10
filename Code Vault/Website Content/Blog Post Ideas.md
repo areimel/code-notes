@@ -1,0 +1,14 @@
+- Code Snippets
+	- HTML
+	- CSS
+	- JS
+- Plain HTML Starter Kit
+- Astro Starter Kit
+- Responsive Design vs Pixel Perfect Design
+- Git and Version Control For Beginners
+- Layouts for Beginners
+- Typography for Beginners
+- JS Functions for Beginners
+	- click button > do a thing
+	- target one element vs many elements
+	- 

@@ -1,4 +1,6 @@
 ## Comments Format
+
+Some simple comment styles for easier readability
 ```javascript
 /* ============================================================ */
 /*

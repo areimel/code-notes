@@ -1,6 +1,6 @@
 # Current Projects
 
-Quick reference for currently-active github repos because I have too many
+Quick reference for currently-active github repos because I have too many.
 
 Mixed Freelance/Work:
 - `analytics-plugin-bundle`: working files for Custom Events, UTM Tracking, and Dynamic Content plugins - formerly `planet-caravan-analytics-toolkit`, migrated to Astro project for better testing capabilities & component structure.

@@ -1,5 +1,7 @@
-This is your new *vault*.
+Work In Progress
 
-Make a note of something, [[create a link]], or try [the Importer](https://help.obsidian.md/Plugins/Importer)!
-
-When you're ready, delete this note and make the vault your own.
+This Obsidian vault is intended for code notes, such as:
+- Commonly used code snippets
+- Boilerplate code
+- Coding techniques and philosophy
+- etc

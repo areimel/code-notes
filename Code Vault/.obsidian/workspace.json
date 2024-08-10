@@ -28,18 +28,6 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Common JS Snippets.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c12961908d5d775d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
                 "file": "Welcome.md",
                 "mode": "source",
                 "source": false
@@ -47,19 +35,19 @@
             }
           },
           {
-            "id": "dfa32dbe46ac56c3",
+            "id": "f3ef186185853bc9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Resource Links.md",
+                "file": "Snippet Collections/Common CSS Snippets.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       },
       {
         "id": "81b95109ac62e849",
@@ -72,13 +60,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Common HTML Snippets.md",
+                "file": "Snippet Collections/Common HTML Snippets.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "dfa32dbe46ac56c3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Website Content/Blog Post Ideas.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -128,7 +129,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 239.5
   },
   "right": {
     "id": "a354f321ae76fd2e",
@@ -144,7 +145,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Resource Links.md",
+                "file": "Welcome.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -161,7 +162,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Resource Links.md",
+                "file": "Welcome.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -184,7 +185,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Resource Links.md"
+                "file": "Welcome.md"
               }
             }
           }
@@ -205,14 +206,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "dfa32dbe46ac56c3",
+  "active": "3e9c4d18af4fbb19",
   "lastOpenFiles": [
+    "Website Content/Blog Post Ideas.md",
     "Welcome.md",
-    "Resource Links.md",
+    "Snippet Collections/Common JS Snippets.md",
+    "Snippet Collections/Common HTML Snippets.md",
+    "Snippet Collections/Common CSS Snippets.md",
     "Current Projects.md",
-    "Common CSS Snippets.md",
-    "Common JS Snippets.md",
-    "Common HTML Snippets.md",
+    "Resource Links.md",
     "Website Content",
     "Snippet Collections",
     "Plugins"
