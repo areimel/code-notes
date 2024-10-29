@@ -1,6 +1,12 @@
 # Common HTML Snippets
 
-## Comments Format
+Things to add:
+- semantic layout
+- basic html page boilerplate
+- viewport tag
+- 
+
+## Comments Formats
 ```html
 <!-- ============================================================ -->
 <!--
@@ -20,6 +26,30 @@
 
 ```
 ## Basic Layouts
+
+Basic Full Width Section with Inner Container-Sized Content
+```html
+<section class="fullWidthSection">
+	<div class="container">
+		Inner Content Goes Here
+	</div>
+</section>
+
+<style>
+	.fullWidthSection{
+		display: block; 
+		width: 100%;
+		background-color: #FFFFFF;
+	}
+	.container{
+		display: block; 
+		width: 100%;
+		max-width: 1000px; 
+		margin: auto;
+		padding: 15px 15px;
+	}
+</style>
+```
 
 Basic Split Layout
 ```html

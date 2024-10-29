@@ -1,3 +1,5 @@
+# Coding Blog Post Ideas
+
 - Code Snippets
 	- HTML
 	- CSS
@@ -11,4 +13,12 @@
 - JS Functions for Beginners
 	- click button > do a thing
 	- target one element vs many elements
-	- 
+- CSS Reset and what it does
+	- popular libraries
+	- simple DIY version
+- Head element for Beginners
+	- pic of Elivra "How's your head?" joke
+- "Do Easy" philosophy idea for code
+- Semantic HTML
+- Fluid Typography / Fluid Sizing
+- Ad-Blockers and why you need them

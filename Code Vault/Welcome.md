@@ -1,7 +1,9 @@
 Work In Progress
 
-This Obsidian vault is intended for code notes, such as:
+This data vault is intended for code notes, such as:
 - Commonly used code snippets
-- Boilerplate code
+- Boilerplate/Starter code
 - Coding techniques and philosophy
+- Website & blog post notes
+- Plugin notes
 - etc

@@ -1,0 +1,1 @@
+- https://dev.to/rdentato/literate-programming-style-for-ai-supported-programming-3jml 

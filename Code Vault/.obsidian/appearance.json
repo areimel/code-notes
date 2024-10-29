@@ -1,4 +1,7 @@
 {
   "cssTheme": "Typewriter",
-  "theme": "obsidian"
+  "theme": "obsidian",
+  "textFontFamily": "Cascadia Mono",
+  "baseFontSize": 16,
+  "interfaceFontFamily": "Cascadia Mono"
 }

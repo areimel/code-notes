@@ -6,7 +6,6 @@
       {
         "id": "1cc35286674eaa7c",
         "type": "tabs",
-        "dimension": 54.79876160990712,
         "children": [
           {
             "id": "d4891968b436fa11",
@@ -19,67 +18,131 @@
                 "mode": "source",
                 "source": false
               },
-              "pinned": true
-            }
-          },
-          {
-            "id": "3e9c4d18af4fbb19",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Welcome.md",
-                "mode": "source",
-                "source": false
-              }
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "Current Projects"
             }
           },
           {
             "id": "f3ef186185853bc9",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Snippet Collections/Common CSS Snippets.md",
                 "mode": "source",
                 "source": false
-              }
-            }
-          }
-        ],
-        "currentTab": 1
-      },
-      {
-        "id": "81b95109ac62e849",
-        "type": "tabs",
-        "dimension": 45.20123839009288,
-        "children": [
-          {
-            "id": "948707d6edd75d2c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Snippet Collections/Common HTML Snippets.md",
-                "mode": "source",
-                "source": false
-              }
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "Common CSS Snippets"
             }
           },
           {
-            "id": "dfa32dbe46ac56c3",
+            "id": "929c6c7c3664ce20",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Snippet Collections/Common JS Snippets.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "Common JS Snippets"
+            }
+          },
+          {
+            "id": "1c860de5321f0d78",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Snippet Collections/Go-To Code Patterns.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "Go-To Code Patterns"
+            }
+          },
+          {
+            "id": "e56244a1721eec24",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Website Content/Blog Post Ideas.md",
+                "file": "AI Ideas and Concepts.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "AI Ideas and Concepts"
+            }
+          },
+          {
+            "id": "245395310ee5f2d3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Node Commands and package_json settings.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Node Commands and package_json settings"
+            }
+          },
+          {
+            "id": "a7b51edce31ab56c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Snippet Collections/JSX - Inline JS & HTML.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "JSX - Inline JS & HTML"
+            }
+          },
+          {
+            "id": "cbb63fd3c91ef3f3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Snippet Collections/Custom Video Player Component.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Custom Video Player Component"
+            }
+          },
+          {
+            "id": "b1075dbe7cbcbbe4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Reusable Tools/AnimationHelper.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "AnimationHelper"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -99,7 +162,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
             }
           },
           {
@@ -114,7 +179,9 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Search"
             }
           },
           {
@@ -122,14 +189,16 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 239.5
+    "width": 200
   },
   "right": {
     "id": "a354f321ae76fd2e",
@@ -145,15 +214,17 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Welcome.md",
-                "collapseAll": false,
+                "file": "Snippet Collections/Common CSS Snippets.md",
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Common CSS Snippets"
             }
           },
           {
@@ -162,10 +233,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Welcome.md",
+                "file": "Snippet Collections/Common CSS Snippets.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Common CSS Snippets"
             }
           },
           {
@@ -176,7 +249,9 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           },
           {
@@ -185,16 +260,18 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Welcome.md"
-              }
+                "file": "Snippet Collections/Custom Video Player Component.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Custom Video Player Component"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 365.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -206,15 +283,29 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3e9c4d18af4fbb19",
+  "active": "cbb63fd3c91ef3f3",
   "lastOpenFiles": [
-    "Website Content/Blog Post Ideas.md",
-    "Welcome.md",
-    "Snippet Collections/Common JS Snippets.md",
-    "Snippet Collections/Common HTML Snippets.md",
+    "Snippet Collections/JSX - Inline JS & HTML.md",
+    "Reusable Tools/AnimationHelper.md",
     "Snippet Collections/Common CSS Snippets.md",
-    "Current Projects.md",
+    "Node Commands and package_json settings.md",
+    "Snippet Collections/Custom Video Player Component.md",
+    "Snippet Collections/Common JS Snippets.md",
+    "AI Ideas and Concepts.md",
+    "Snippet Collections/Go-To Code Patterns.md",
     "Resource Links.md",
+    "Plugins/JS Helper Functions.md",
+    "Reusable Tools",
+    "Current Projects.md",
+    "Pasted image 20240912205356.png",
+    "Attachments",
+    "Articles To Read.md",
+    "Website Content/Blog Post Ideas.md",
+    "Plugins/Advanced UTM Tracker Notes.md",
+    "iframe-test.md",
+    "To-Do Projects.md",
+    "Snippet Collections/Common HTML Snippets.md",
+    "Welcome.md",
     "Website Content",
     "Snippet Collections",
     "Plugins"

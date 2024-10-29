@@ -27,6 +27,7 @@ Some simple comment styles for easier readability
 ```js
 var variableName = "value"; //old, avoid using
 
+//new syntax
 let variableThatCanChange = "value"; //variable can be updated
 const variableThatNeverChanges = "value"; //variable MUST stay the same
 
@@ -34,24 +35,39 @@ const variableThatNeverChanges = "value"; //variable MUST stay the same
 myVariable = myVariable || 'defaultValue';
 ```
 
+---
 ## Basic Functions
 
-Basic Function Syntax
+### Basic Function Syntax
 ```js
 function FunctionName(parameter){
 	let newVar = parameter;
 }
 ```
 
-Event Listener Syntax
+### Event Listener Syntax
 ```js
 element.addEventListener('click', function() {
 	element.setAttribute("data-analytics-proximity-state", "false");
 });
 ```
 
-## Targeting and Manipulating Elements
-Target a single **instance** of `#targetElement` and add/remove an `.active` class
+### Selector-Abstracted Function Template
+Plug in a selector as the function prop/variable and use that as the base
+```js
+//Targets a single element and it's children
+function singleAbstractedFunction(elementID){
+	const target = document.querySelector(`${elementID}`);
+	const var1 = document.querySelector(`${elementID} .element1`);
+	const var2 = document.querySelector(`${elementID} .element2`);
+
+	target.innerHTML = 'updated';
+
+}
+```
+## Targeting and Modifying Elements
+
+### Target a single **instance** of `#targetElement` and add/remove an `.active` class
 ```js
 let element = document.querySelector('#targetElement');
 //do the thing
@@ -59,7 +75,7 @@ element.classList.add("active");
 //element.classList.remove("active");
 ```
 
-Target all instances of `.targetElement` and add/remove an `.active` class
+### Target all instances of `.targetElement` and add/remove an `.active` class
 ```js
 let elements = document.querySelectorAll('.targetElement');
 elements.forEach(element => {
@@ -69,23 +85,53 @@ elements.forEach(element => {
 });
 ```
 
+### Target a parent class, and then use that to target child elements
+```js
+//Parent Element
+	let parentElement = document.querySelector('#targetElement');
+//Child Elements
+	let childElement1 = parentElement.querySelector('.class1');
+	let childElement2 = parentElement.querySelector('.class2');
+	let childElement3 = parentElement.querySelector('.class3');
 
-Grab an element's data-attribute value
+//do the thing
+	childElement1.classList.add("active");
+	childElement2.classList.add("active");
+	childElement3.classList.add("active");
+```
+
+
+### Grab an element's data-attribute value
 ```js
 let dataAttrVar = element.getAttribute("data-attr-var");
 ```
 
-Update an element's data-attribute value
+### Update an element's data-attribute value
 ```js
 element.setAttribute("data-attr-var");
 ```
 
+### Update/Replace HTML text
+```js
+element.innerHTML = "new text";
+```
+
+### Add HTML text before/after and inside/outside another element
+```Javascript
+
+element.insertAdjacentHTML("beforebegin", htmlString); //insert before/outside
+element.insertAdjacentHTML("afterbegin", htmlString); //insert inside/start
+element.insertAdjacentHTML("beforeend", htmlString); //insert inside/end
+element.insertAdjacentHTML("afterend", htmlString); //insert after/outside
+```
 
 ---
+```
 
+```
 ## User Actions
 
-Event Listener
+### Event Listener
 ```javascript
 element.addEventListener("click", FunctionToRun, false);
 //OR
@@ -153,7 +199,7 @@ console.log(urlParamValue);
 
 ---
 ## Page Load Related
-Page Content Loaded
+### Page Content Loaded
 ```javascript
 //short
 document.addEventListener('DOMContentLoaded', functionToRun); 
@@ -165,13 +211,24 @@ document.addEventListener("DOMContentLoaded", function(e){
 });
 ```
 
-setTimeout()
+## Timing-Related
+
+### setTimeout()
 ```js
 setTimeout(() => {
   console.log("Delayed for 1 second.");
 }, 1000); //time in ms
 ```
 
+### setInterval()
+```js 
+function CycledFunctions(){
+  function1();
+  function2();
+  //generic code to execute
+}
+setInterval(CycledFunctions, 1000); //time in ms
+```
 ## Console.log Tools
 
 console.log Groups
