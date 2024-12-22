@@ -3,5 +3,8 @@
   "theme": "obsidian",
   "textFontFamily": "Cascadia Mono",
   "baseFontSize": 16,
-  "interfaceFontFamily": "Cascadia Mono"
+  "interfaceFontFamily": "Cascadia Mono",
+  "enabledCssSnippets": [
+    "custom"
+  ]
 }

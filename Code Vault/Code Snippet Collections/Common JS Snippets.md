@@ -111,7 +111,8 @@ let dataAttrVar = element.getAttribute("data-attr-var");
 element.setAttribute("data-attr-var");
 ```
 
-### Update/Replace HTML text
+## Update/Replacing/Modifying Text
+
 ```js
 element.innerHTML = "new text";
 ```
@@ -246,4 +247,31 @@ console.group("===== Console.log Group =====");
   console.log("line 2: ["+variable_2+"]");
   console.log("line 3: ["+variable_3+"]");
 console.groupEnd();
+```
+
+---
+
+## Mixing CSS & JS
+
+### Access CSS custom var values from inside JS
+```js
+const root = document.querySelector(`:root`);
+const element = document.querySelector(`.element`);
+
+// get variable from root
+getComputedStyle(root).getPropertyValue("--my-var");
+
+// get variable from specific element
+getComputedStyle(element).getPropertyValue("--my-var");
+
+// set variable on inline style
+element.style.setProperty("--my-var", "#FFF");
+```
+
+### Access pseudo-element content values
+```js
+const element = document.querySelector(".element");
+const result = getComputedStyle(element, ":after").content; //:after
+//const result = getComputedStyle(element, ":before").content; //:before
+console.log(`pseudo-element content value is: ${result}`)
 ```

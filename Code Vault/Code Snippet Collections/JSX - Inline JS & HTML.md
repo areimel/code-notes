@@ -1,7 +1,7 @@
 # JSX | Inline JS & HTML
 
-## Simple Conditional Renders
 
+## Simple Conditional Renders
 ```jsx
 //if-render
 {varName && varName}
@@ -12,13 +12,27 @@
 
 //if-else-render
 {varName ? varName : "default value"}
-
 {varName ? 
 	<div>
 		{varName}
 	</div> 
 : 
 	<div>Default HTML</div>
+}
+```
+
+Example:
+```jsx
+{image ? 
+	<div className={componentStyles.image}>
+		<Link href={`/posts/${id}`}>
+			<a>
+				<img src={image} alt=""/>
+			</a>
+		</Link>
+	</div>
+:
+	<div>NO IMAGE</div>
 }
 ```
 

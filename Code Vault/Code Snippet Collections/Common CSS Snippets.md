@@ -105,14 +105,14 @@ ul{
 	margin: 0px;
 }
 li::marker {
-	color: $accentColor;
+	color: var(--list-marker-color, inherit);
 }
 
 h1, h2, h3, h4, h5, h6{
 	margin: 0;
 	line-height: 1.2;
 	margin: 0;
-	font-size: $fontSizeHeading;
+	font-size: var(--heading-reset-size, 3.5rem);
 }
 
 hr{
@@ -193,6 +193,15 @@ Notes:
   will-change: opacity;
 }
 ```
+
+### Prevent Highlight Utility
+```scss
+*[data-prevent-highlight="true"] {
+	-webkit-user-select: none; /* Safari */
+	-ms-user-select: none; /* IE 10 and IE 11 - deprecated */
+	user-select: none; /* Standard syntax */
+}
+```
 ## Layout Snippets
 
 ### Simple Responsive Max Width
@@ -206,6 +215,7 @@ div{
 ```
 
 ### Flexbox
+#### Basic Usage
 ```css
 div{
 	display: flex;
@@ -215,12 +225,70 @@ div{
 }
 ```
 
+#### Flex parent container with evenly-heighted child elements
+```css
+.flexContainer{
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	flex-direction: row;
+	flex-wrap: wrap;
+	margin: 0 -1rem;
+}
+
+.flexCard{
+	align-self: stretch; /* critical - enforces same-height of child elements */
+	max-width: 100%;
+	width:350px;
+	border: solid 1px #000;
+	padding: 1rem;
+	margin: 1rem;
+}
+```
+
+### Fixed/Dynamic Side-by-Side Layout
+Notes:
+- 2 side-by-side sections, one with a fixed pixel width, and the other filling up the rest of the parent element width. 
+- Ideal for presenting content such as a featured or lockup image (fixed side) next to a block of text (dynamic side).
+```css
+.parentContainer{
+	--fixedWidth: 500px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.innerSection{
+	align-self: stretch;
+	padding: 2rem;
+}
+
+.fixedSide{
+	width: var(--fixedWidth);
+	background: #000;
+	color: #FFF;
+}
+
+.dynamicSide{
+	width: calc(100% - var(--fixedWidth));
+	background: #FFF;
+	color: #000;
+}
+```
 ## Show/Hide Snippets
 
 ### Hide element while preserving it's space
 ```css
-opacity:0;
-pointer-events:none;
+.showHide{
+	transition: 0.15s ease-in-out;
+	opacity: 1;
+	pointer-events: auto;
+}
+.showHide[data-hidden="true"]{
+	opacity:0;
+	pointer-events:none;
+}
 ```
 
 Don't use this a basic `display: none;`, unless you need to remove the element from the content flow.
@@ -255,5 +323,63 @@ div{
 ### Niche Media Queries
 ```scss
 //Print-only
-<link rel="stylesheet" media="print" href="print.css">
+@media print {
+  /* Activates BELOW 1000px, aka DESKTOP-FIRST */
+}
+```
+
+### Go-to Breakpoints
+```css
+/* Expected default range: 1200px-2560px */
+/* Responsive behavior: 
+	- Desktop-first
+	- tablet & mobile device breakpoints
+	- 4k & large screen support 
+	- print support
+*/
+
+@media screen and (max-width: 1025px) {
+  /* Activates BELOW 1025px, Laptop treatment */
+}
+
+@media screen and (max-width: 768px) {
+  /* Activates BELOW 768px, Tablet treatment */
+}
+
+@media screen and (max-width: 425px) {
+  /* Activates BELOW 425px, Mobile-L treatment */
+}
+
+@media screen and (max-width: 375px) {
+  /* Activates BELOW 375px, Mobile-M treatment */
+}
+
+@media screen and (max-width: 320px) {
+  /* Activates BELOW 320px, Mobile-S treatment - smallest size */
+}
+
+@media screen and (min-width: 2560px) {
+  /* Activates ABOVE 2559px - 4K / Large Screen treatment - largest size */
+}
+
+
+```
+
+
+## Typography
+
+### Nicer Headlines
+```css
+h1{
+ text-align: center;
+ text-wrap: balance;
+ /* OR: text-wrap: pretty; */
+}
+```
+
+### No Wrap Text
+```css
+.noWrap{
+	text-wrap: nowrap;
+}
 ```

@@ -1,0 +1,5 @@
+body { --file-line-width:1000px }
+
+.markdown-preview-view hr, hr {
+	border-color: var(--h1-color);
+}
