@@ -383,3 +383,17 @@ h1{
 	text-wrap: nowrap;
 }
 ```
+
+
+## Gradients
+
+### Basic Stripes
+
+Tool: https://stripesgenerator.com/ 
+```scss
+--color1: #000000;
+--color2: #FFFFFF;
+
+background-image: linear-gradient(45deg, var(--color1) 25%, var(--color2) 25%, var(--color2) 50%, var(--color1) 50%, var(--color1) 75%, var(--color2) 75%, var(--color2) 100%);
+background-size: 56.57px 56.57px; //translates to 20px wide stripes due to triangle equation
+```

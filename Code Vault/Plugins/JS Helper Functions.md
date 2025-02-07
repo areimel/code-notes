@@ -1,7 +1,7 @@
 # JS Helper Functions - Final Name TBD
 
 ## Possible Names
-- ultility.js
+- utility.js
 - helper-functions.js
 - 
 

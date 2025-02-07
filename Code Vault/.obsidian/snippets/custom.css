@@ -1,3 +1,8 @@
+::selection{
+	background-color: #FFFFFF;
+	color: #FF00FF;
+}
+
 body { --file-line-width:1000px }
 
 .markdown-preview-view hr, hr {

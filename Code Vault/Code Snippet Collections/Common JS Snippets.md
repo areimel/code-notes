@@ -52,6 +52,18 @@ element.addEventListener('click', function() {
 });
 ```
 
+### Page Content Loaded
+```javascript
+//short
+document.addEventListener('DOMContentLoaded', functionToRun); 
+window.addEventListener('readPageUpdated', functionToRun);
+
+//long
+document.addEventListener("DOMContentLoaded", function(e){
+	//runs code after DOM load
+});
+```
+
 ### Selector-Abstracted Function Template
 Plug in a selector as the function prop/variable and use that as the base
 ```js
@@ -65,6 +77,9 @@ function singleAbstractedFunction(elementID){
 
 }
 ```
+
+
+---
 ## Targeting and Modifying Elements
 
 ### Target a single **instance** of `#targetElement` and add/remove an `.active` class
@@ -108,7 +123,7 @@ let dataAttrVar = element.getAttribute("data-attr-var");
 
 ### Update an element's data-attribute value
 ```js
-element.setAttribute("data-attr-var");
+element.setAttribute("data-attr-var", "value");
 ```
 
 ## Update/Replacing/Modifying Text
@@ -199,18 +214,6 @@ console.log(urlParamValue);
 ```
 
 ---
-## Page Load Related
-### Page Content Loaded
-```javascript
-//short
-document.addEventListener('DOMContentLoaded', functionToRun); 
-window.addEventListener('readPageUpdated', functionToRun);
-
-//long
-document.addEventListener("DOMContentLoaded", function(e){
-	//runs code after DOM load
-});
-```
 
 ## Timing-Related
 
