@@ -4,10 +4,9 @@ Update CanIUse data: `npx update-browserslist-db@latest`
 
 ## Package.js Settings
 
-Next.js Settings
+Next.js, General Settings
 ```json
 {
-  "private": false,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
