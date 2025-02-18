@@ -24,9 +24,8 @@
             }
           },
           {
-            "id": "f3ef186185853bc9",
+            "id": "99cc511dd9efbeef",
             "type": "leaf",
-            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
@@ -34,57 +33,26 @@
                 "mode": "source",
                 "source": false
               },
-              "pinned": true,
               "icon": "lucide-file",
               "title": "Common CSS Snippets"
             }
           },
           {
-            "id": "6067a8ad422a70da",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Code Snippet Collections/Common JS Snippets.md",
-                "mode": "source",
-                "source": false
-              },
-              "pinned": true,
-              "icon": "lucide-file",
-              "title": "Common JS Snippets"
-            }
-          },
-          {
-            "id": "18d6e547ab395908",
+            "id": "b681b4204d243d3d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cursor AI Rules/tailwind-rules.md",
+                "file": "Cursor AI Rules/project-management-meta-prompt.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "tailwind-rules"
-            }
-          },
-          {
-            "id": "f8f2b0dd5aabb4c1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Cursor AI Rules/general-frontend-dev-3.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "general-frontend-dev-3"
+              "title": "project-management-meta-prompt"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -203,13 +171,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cursor AI Rules/general-frontend-dev-3.md",
+                "file": "Cursor AI Rules/project-management-meta-prompt.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of general-frontend-dev-3"
+              "title": "Outline of project-management-meta-prompt"
             }
           }
         ],
@@ -229,35 +197,36 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f8f2b0dd5aabb4c1",
+  "active": "b681b4204d243d3d",
   "lastOpenFiles": [
-    "Articles To Read.md",
-    "Node Commands and package_json settings.md",
+    "Current Projects.md",
+    "Code Snippet Collections/Common CSS Snippets.md",
+    "Cursor AI Rules/project-management-meta-prompt.md",
     "Untitled.md",
-    "Cursor AI Rules/general-frontend-dev-3.md",
-    "Cursor AI Rules/general-fullstack-dev-1.md",
-    "Cursor AI Rules/general-frontend-dev-2.md",
-    "Cursor AI Rules/general-frontend-dev-1.md",
-    "Common Find and Replace.md",
-    "Cursor AI Rules/tailwind-rules.md",
-    "Cursor AI Rules/astro-rules.md",
-    "Cursor AI Rules/general-webdev-1.md",
-    "Cursor AI Rules/general-fullstack-dev-2.md",
-    "Cursor AI Rules/dev-content-writing.md",
+    "Grovery new address.md",
+    "Reusable Tools/AnimationHelper.md",
     "Cursor AI Rules/desktop-app-rules.md",
-    "Cursor AI Rules/mobile-web-rules.md",
+    "Cursor AI Rules/dev-content-writing.md",
+    "autoscreenshot cli tool.md",
     "Cursor AI Rules/webdev-rules.md",
     "Cursor AI Rules/three-js-rules.md",
+    "Cursor AI Rules/tailwind-rules.md",
+    "Cursor AI Rules/mobile-web-rules.md",
+    "Cursor AI Rules/general-webdev-1.md",
     "Cursor AI Rules/general-simple-mode.md",
+    "Cursor AI Rules/general-fullstack-dev-2.md",
+    "Cursor AI Rules/general-fullstack-dev-1.md",
+    "Cursor AI Rules/general-frontend-dev-3.md",
+    "Cursor AI Rules/general-frontend-dev-1.md",
+    "Cursor AI Rules/general-frontend-dev-2.md",
+    "Cursor AI Rules/astro-rules.md",
     "Cursor AI Rules",
+    "Common Find and Replace.md",
     "Code Snippet Collections/Common JS Snippets.md",
     "Plugins/JS Helper Functions.md",
-    "Reusable Tools/AnimationHelper.md",
-    "Grovery new address.md",
     "Database Keys.md",
-    "Code Snippet Collections/Common CSS Snippets.md",
     "Code Snippet Collections/Animation Snippets.md",
-    "Full Code Components/QR Codes.md",
+    "Untitled",
     "Critical Data",
     "Full Code Components",
     "Code Snippet Collections/Next.js Snippets",
@@ -266,7 +235,6 @@
     "Pasted image 20240912205356.png",
     "Attachments",
     "Website Content",
-    "Code Snippet Collections",
-    "Plugins"
+    "Code Snippet Collections"
   ]
 }
