@@ -4,10 +4,11 @@ You should start out with writing up a 1 or 2 paragraph summary of the project y
 
 This meta-prompt relies on a set of markdown files: 
 - CURSOR_PROJECT_OVERVIEW.md
-	- Written by dev
+	- Written by dev, used by the AI as the primary basis for building out other project docs.
 - CURSOR_PROJECT_PLAN.md
 	- AI-generated, static file
 	- Written at the beginning of the project and acts as and idealized/optimized master plan that should be the main reference for the AI.
+	- More detailed version of the OVERVIEW file, AI rewrites it as an ideal prompt for itself, fills in the blanks on certain aspects of the project.
 - CURSOR_PROJECT_TIMELINE.md
 	- AI-generated, gets updated with progress
 	- Based on the CURSOR_PROJECT_PLAN file, this acts as a checklist of features and tasks that helps the AI keep track of what needs to be done and in what order.
@@ -44,10 +45,10 @@ This meta-prompt relies on a set of markdown files:
 
 Original versions:
 
-
+Initial prompt:
 I'd like for you to help me get started with a new, fresh project. I've written out a detailed overview of how I want to build this project in @CURSOR_PROJECT_OVERVIEW.md . I want you to first review these instructions, and then I want you to develop a plan of how we will build this project and break it down into major sections. I want you to create a new markdown file called 'CURSOR_PROJECT_PLAN' and I want you to store your detailed plan there. I also want you to creat a new markdown file called 'CURSOR_PROJECT_TIMELINE' where you keep track of where we are in the project and what features are complete, in progress, or not started yet.
 
-
+CURSOR_PROJECT_OVERVIEW.md:
 # autoscreenshot - cli tool
 
 **Project summary**: I want to build a CLI tool called 'autoscreenshot' that takes screenshots of web pages using a headless browser. I would also like to publish this tool as an npm package so that others can use it.

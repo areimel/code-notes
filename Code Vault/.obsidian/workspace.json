@@ -43,12 +43,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cursor AI Rules/project-management-meta-prompt.md",
+                "file": "Cursor AI Rules/astro-custom-preferences.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "project-management-meta-prompt"
+              "title": "astro-custom-preferences"
             }
           }
         ],
@@ -171,13 +171,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cursor AI Rules/project-management-meta-prompt.md",
+                "file": "Cursor AI Rules/astro-custom-preferences.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of project-management-meta-prompt"
+              "title": "Outline of astro-custom-preferences"
             }
           }
         ],
@@ -199,33 +199,33 @@
   },
   "active": "b681b4204d243d3d",
   "lastOpenFiles": [
+    "Cursor AI Rules/meta-prompts/project-management-meta-prompt.md",
+    "Cursor AI Rules/meta-prompts",
+    "Cursor AI Rules/tailwind-rules.md",
+    "Cursor AI Rules/three-js-rules.md",
+    "Cursor AI Rules/general-webdev-1.md",
+    "Cursor AI Rules/dev-content-writing.md",
+    "Cursor AI Rules/astro-custom-preferences.md",
+    "Cursor AI Rules/astro-rules.md",
+    "Critical Data/Grovery Github Recovery Codes.md",
+    "To-Do Projects.md",
+    "Website Content/Blog Post Ideas.md",
+    "Articles To Read.md",
+    "Cursor AI Rules/desktop-app-rules.md",
+    "Cursor AI Rules/general-frontend-dev-1.md",
+    "Cursor AI Rules/general-frontend-dev-2.md",
     "Current Projects.md",
     "Code Snippet Collections/Common CSS Snippets.md",
-    "Cursor AI Rules/project-management-meta-prompt.md",
     "Untitled.md",
     "Grovery new address.md",
     "Reusable Tools/AnimationHelper.md",
-    "Cursor AI Rules/desktop-app-rules.md",
-    "Cursor AI Rules/dev-content-writing.md",
     "autoscreenshot cli tool.md",
     "Cursor AI Rules/webdev-rules.md",
-    "Cursor AI Rules/three-js-rules.md",
-    "Cursor AI Rules/tailwind-rules.md",
     "Cursor AI Rules/mobile-web-rules.md",
-    "Cursor AI Rules/general-webdev-1.md",
     "Cursor AI Rules/general-simple-mode.md",
     "Cursor AI Rules/general-fullstack-dev-2.md",
     "Cursor AI Rules/general-fullstack-dev-1.md",
-    "Cursor AI Rules/general-frontend-dev-3.md",
-    "Cursor AI Rules/general-frontend-dev-1.md",
-    "Cursor AI Rules/general-frontend-dev-2.md",
-    "Cursor AI Rules/astro-rules.md",
     "Cursor AI Rules",
-    "Common Find and Replace.md",
-    "Code Snippet Collections/Common JS Snippets.md",
-    "Plugins/JS Helper Functions.md",
-    "Database Keys.md",
-    "Code Snippet Collections/Animation Snippets.md",
     "Untitled",
     "Critical Data",
     "Full Code Components",
@@ -234,7 +234,6 @@
     "Reusable Tools",
     "Pasted image 20240912205356.png",
     "Attachments",
-    "Website Content",
-    "Code Snippet Collections"
+    "Website Content"
   ]
 }
