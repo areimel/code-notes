@@ -23,12 +23,12 @@
   - Use framework-specific components (React, Vue, Svelte) when necessary.
   - Implement proper component composition and reusability.
   - Use Astro's component props for data passing.
-  - Leverage Astro's built-in components like <Markdown /> when appropriate.
+  - Leverage Astro's built-in components like `<Markdown />` when appropriate.
 
   Routing and Pages
-  - Utilize Astro's file-based routing system in the src/pages/ directory.
-  - Implement dynamic routes using [...slug].astro syntax.
-  - Use getStaticPaths() for generating static pages with dynamic routes.
+  - Utilize Astro's file-based routing system in the `src/pages/` directory.
+  - Implement dynamic routes using `[...slug].astro` syntax.
+  - Use `getStaticPaths()` for generating static pages with dynamic routes.
   - Implement proper 404 handling with a 404.astro page.
 
   Content Management
@@ -37,33 +37,33 @@
   - Implement content collections for organized content management.
 
   Styling
-  - Use Astro's scoped styling with <style> tags in .astro files.
+  - Use Astro's scoped styling with `<style>` tags in .astro files.
   - Leverage global styles when necessary, importing them in layouts.
   - Utilize CSS preprocessing with Sass or Less if required.
   - Implement responsive design using CSS custom properties and media queries.
 
   Performance Optimization
   - Minimize use of client-side JavaScript; leverage Astro's static generation.
-  - Use the client:* directives judiciously for partial hydration:
-    - client:load for immediately needed interactivity
-    - client:idle for non-critical interactivity
-    - client:visible for components that should hydrate when visible
+  - Use the `client:*` directives judiciously for partial hydration:
+    - `client:load` for immediately needed interactivity
+    - `client:idle` for non-critical interactivity
+    - `client:visible` for components that should hydrate when visible
   - Implement proper lazy loading for images and other assets.
   - Utilize Astro's built-in asset optimization features.
 
   Data Fetching
-  - Use Astro.props for passing data to components.
-  - Implement getStaticPaths() for fetching data at build time.
-  - Use Astro.glob() for working with local files efficiently.
+  - Use `Astro.props` for passing data to components.
+  - Implement `getStaticPaths()` for fetching data at build time.
+  - Use `Astro.glob()` for working with local files efficiently.
   - Implement proper error handling for data fetching operations.
 
   SEO and Meta Tags
-  - Use Astro's <head> tag for adding meta information.
+  - Use Astro's `<head>` tag for adding meta information.
   - Implement canonical URLs for proper SEO.
-  - Use the <SEO> component pattern for reusable SEO setups.
+  - Use the` <SEO>` component pattern for reusable SEO setups.
 
   Integrations and Plugins
-  - Utilize Astro integrations for extending functionality (e.g., @astrojs/image).
+  - Utilize Astro integrations for extending functionality (e.g.,` @astrojs/image`).
   - Implement proper configuration for integrations in astro.config.mjs.
   - Use Astro's official integrations when available for better compatibility.
 
@@ -81,7 +81,7 @@
   - Leverage Tailwind's responsive design utilities (sm:, md:, lg:, etc.).
   - Utilize Tailwind's color palette and spacing scale for consistency.
   - Implement custom theme extensions in tailwind.config.cjs when necessary.
-  - Never use the @apply directive
+  - Prefer Tailwind's utility classes for general styling, but any time you have 2 or more elements in a component that repeat the same Tailwind classes, use the @apply directive.
 
   Testing
   - Implement unit tests for utility functions and helpers.

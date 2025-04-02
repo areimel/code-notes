@@ -1,0 +1,14 @@
+- 2 years with no performance review or raise
+- I need more money
+	- current: 84k
+	- COL adjustment: 94k
+	- Skills & Value: 98k-100k
+- I need a better job title
+	- current: Frontend Developer
+	- title I gave myself: Senior Developer
+	- new title: something above senior dev
+- Things I've accomplished:
+	- KIOSK program - Next.js & Astro templates
+	- CORE/ALLE program
+	- Augmented Reality / Virtual Reality
+	- AI Enhancements

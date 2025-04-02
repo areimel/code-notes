@@ -1,0 +1,4 @@
+I want some help setting up this component as a custom navigation buttons that will connect to the Swiper instance in @SubSlider2.astro and other sub-slider components like it. I want it to be a pair of next and previous buttons, and I want the component to support having multiple instances of itself on the same page, with each set of controls controlling its own Swiper instance. First, I want us to work on building out the HTML structure and styling it with Tailwind CSS classes. Then, I want to update the Swiper code on @SubSlider2.astro to target the IDs of the navigation buttons. Before we do anything, do a scan of the codebase to get an understanding of how it works, and do a review of the @Swiper docs. We're using the 'Swiper Elements' style implementation. 
+
+## Modifiers
+- Let's take things one step at a time and not jump ahead. I want you to give me time to confirm any major actions like deleting or rebuilding components.
