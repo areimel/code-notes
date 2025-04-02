@@ -63,7 +63,7 @@ html,body {
 	font-size: $fontSizeBody;
 	color: $textColor;
 	background-color: $backgroundColor;
-	height: 100vh;
+	min-height: 100vh;
 	overflow: hidden;
 	overscroll-behavior-x: none;
 	

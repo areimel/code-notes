@@ -22,3 +22,13 @@
 - Semantic HTML
 - Fluid Typography / Fluid Sizing
 - Ad-Blockers and why you need them
+
+
+## Post title ideas
+
+- Beyond Mobile Responsive: how to optimize your site for 4k TVs and ultra-wide monitors
+- What computer do I need for coding? Answer: literally any computer
+
+## Project Template Series
+- AI Prompt Collection
+- 1-Page Portfolio
