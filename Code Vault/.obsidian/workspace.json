@@ -4,27 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "1cc35286674eaa7c",
+        "id": "0a52e257b476e8da",
         "type": "tabs",
         "children": [
           {
-            "id": "d4891968b436fa11",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Current Projects.md",
-                "mode": "source",
-                "source": false
-              },
-              "pinned": true,
-              "icon": "lucide-file",
-              "title": "Current Projects"
-            }
-          },
-          {
-            "id": "99cc511dd9efbeef",
+            "id": "b770a91e6fdca830",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -35,94 +19,9 @@
               },
               "icon": "lucide-file",
               "title": "CLI Tools & Commands"
-            }
-          },
-          {
-            "id": "fdbfa4a14c1dab42",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CLI Tools & Commands.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "CLI Tools & Commands"
-            }
-          },
-          {
-            "id": "2de394ab18c1a291",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Grovery Alec-Scott 1-on-1.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Grovery Alec-Scott 1-on-1"
-            }
-          },
-          {
-            "id": "b681b4204d243d3d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "AI Ideas and Concepts.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "AI Ideas and Concepts"
-            }
-          },
-          {
-            "id": "126e1ecf231d41d8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Untitled 1.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Untitled 1"
-            }
-          },
-          {
-            "id": "6e76422de0941523",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Cursor AI Rules/meta-prompts/project-management-meta-prompt.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "project-management-meta-prompt"
-            }
-          },
-          {
-            "id": "4b4fd4b6f4d36886",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Cursor Prompts/Start New Component.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Start New Component"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -241,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Grovery Alec-Scott 1-on-1.md",
+                "file": "CLI Tools & Commands.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Grovery Alec-Scott 1-on-1"
+              "title": "Outline of CLI Tools & Commands"
             }
           }
         ],
@@ -267,38 +166,37 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2de394ab18c1a291",
+  "active": "b770a91e6fdca830",
   "lastOpenFiles": [
-    "Python PATH variables.md",
-    "AI Tools.md",
-    "CLI Tools & Commands.md",
-    "Grovery Alec-Scott 1-on-1.md",
-    "Cursor AI Rules/desktop-app-rules.md",
-    "Cursor AI Rules/astro-rules.md",
-    "Cursor AI Rules/tailwind-rules.md",
-    "Code Snippet Collections/Common JS Snippets.md",
-    "Code Snippet Collections/Common CSS Snippets.md",
-    "Cursor Prompts/Start New Component.md",
-    "Cursor AI Rules/meta-prompts/project-management-meta-prompt.md",
-    "Cursor Prompts",
-    "OLLAMA Tools.md",
-    "Untitled.md",
-    "Untitled 1.md",
-    "Welcome.md",
-    "AI Models and Datasets.md",
-    "AI Ideas and Concepts.md",
-    "Cursor AI Rules/project-management-meta-prompt.md",
-    "WSL Commands.md",
-    "Cursor AI Rules/meta-prompts",
-    "Cursor AI Rules/astro-custom-preferences.md",
+    "To-Do Projects.md",
     "Current Projects.md",
-    "Grovery new address.md",
-    "Reusable Tools/AnimationHelper.md",
+    "Cursor AI Rules/astro-custom-preferences.md",
+    "Cursor AI Rules/astro-rules.md",
+    "Grovery Alec-Scott 1-on-1.md",
+    "Cursor Prompts/Start New Component.md",
+    "Cursor Prompts",
+    "AI Models and Datasets.md",
+    "Cursor AI Rules/meta-prompts/project-management-meta-prompt.md",
+    "AI Tools.md",
+    "Python PATH variables.md",
+    "Untitled 1.md",
+    "Untitled.md",
     "Cursor AI Rules/dev-content-writing.md",
-    "autoscreenshot cli tool.md",
     "Cursor AI Rules/webdev-rules.md",
     "Cursor AI Rules/three-js-rules.md",
-    "Cursor AI Rules/mobile-web-rules.md",
+    "Cursor AI Rules/tailwind-rules.md",
+    "Website Content/Blog Post Ideas.md",
+    "Code Snippet Collections/Common CSS Snippets.md",
+    "Code Snippet Collections/Go-To Code Patterns.md",
+    "CLI Tools & Commands.md",
+    "WSL Commands.md",
+    "Untitled",
+    "Cursor AI Rules/meta-prompts",
+    "Cursor AI Rules/general-webdev-1.md",
+    "Critical Data/Grovery Github Recovery Codes.md",
+    "Articles To Read.md",
+    "Cursor AI Rules/desktop-app-rules.md",
+    "Cursor AI Rules/general-frontend-dev-1.md",
     "Cursor AI Rules",
     "Critical Data",
     "Full Code Components",
@@ -306,7 +204,6 @@
     "Code Snippet Collections/Astro Snippets",
     "Reusable Tools",
     "Pasted image 20240912205356.png",
-    "Attachments",
-    "Website Content"
+    "Attachments"
   ]
 }
